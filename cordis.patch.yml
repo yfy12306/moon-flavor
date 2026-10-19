@@ -1,0 +1,7 @@
+# moon-flavor bundle patch: inject the browser theme client plugin.
+# Applied over the web surface's base layer; later bundle patches and the
+# profile's own cordis.patch.yml still come after, so a row here can be
+# overridden by id downstream.
+- insert:
+    - id: moon-flavor
+      name: 'moon-flavor'
